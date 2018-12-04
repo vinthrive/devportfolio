@@ -4,7 +4,32 @@
 	box-sizing: border-box;
 }
 
-.header-nav{
-	margin-right: 0;
-	margin-left: auto;
+body{
+	background-color: #343a40;
+	color: #fff;
+	
+}
+#brand{
+	font-size: xx-large;
+	color: #1DB954;
+}
+
+.jumbotron{
+	background-color: transparent;
+	border: 2px solid #fff;
+
+}
+
+.my-4{
+	background-color: #fff;	
+}
+
+#profile-pic{
+	max-height: 200px;
+	border-color: transparent;
+	background-color: #343a40;
+}
+
+#greetings{
+	padding: 10px;
 }

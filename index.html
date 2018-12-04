@@ -17,70 +17,70 @@
 	<title>Developer Porfolio</title>
 </head>
 <body>
-	<div class="container .bg-dark">
+	<div class="container">
 		<header>
-<!-- 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<ul class="nav">
-					<li class="nav-item">
-						<a class="nav-link active" href="#home">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#works">Works</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#about">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#contact">Contact</a>
-					</li>
-				</ul>
-			</nav> -->
-			<nav class="navbar navbar-expand-lg navbar-primary bg-success">
-				<a class="navbar-brand">
-					<i class="fas fa-user-circle">Alvin Rey Blanco</i>
-				</a>
+			<nav class="navbar is-transparent"> 
+				<div class="navbar-brand">
+					<span class="navbar-item">
+						<i id="brand" class="fab fa-adn"></i>
+					</span>
+				</div>		
+				<div class="navbar-menu" id="navMenu">
 
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=#navbar-nav>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<div id="navbar-nav" class="collapse navbar-collapse">
-					<ul class="navbar-nav ml-auto">
+					<ul class="nav">
 						<li class="nav-item">
-							<a class="nav-link active" href="#home">Home</a>
+							<a class="nav-link text-white" href="#works">Works</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#works">Works</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#about">About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#contact">Contact</a>
+							<a class="nav-link text-white" href="#about">About</a>
 						</li>
 					</ul>
 				</div>
 			</nav>
-		</header>
+	</header>
 
-		<main>
-			<section id="home">
+	<main>
+		<section id="home">
+			<div class="jumbotron text-center rounded">
+				<h1 class="display-4 text-white">Fullstack Web Developer</h1>
+				<hr class="my-4">
+				<p>Building apps for Future</p>
+				<p class="lead">
+					<a class="btn btn-success btn-lg" href="#about" role="button">Know more</a>
+				</p>
+			</div>
+		</section>
+		<section id="about">
+			<a data-toggle="collapse" href="#about-details" role="button" aria-expanded="true" aria-controls="about-details">
+    			<h1 class="display-6 text-center text-white">About
+  				</h1>
+  			</a>
+			<div id="about-details" class="bg-success">
+<!-- 				<img id="profile-pic" src="assets/images/alvin-pic.jpg" class="img-fluid img-thumbnail rounded-circle" alt="Responsive image"> -->
+				<h2 id="greetings" class="text-white text-center">Hi, I'm Alvin. Nice to meet you.</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</section>		
+		<section id="works">
+			<a data-toggle="collapse" href="#work-list" role="button" aria-expanded="false" aria-controls="work-list">
+    			<h1 class="display-6 text-center text-white">Works</p>
+  			</h1>
+			<div id="work-list">
 				
-			</section>
-			<section id="works">
-				
-			</section>
-			<section id="about">
-				
-			</section>
-			<section id="works">
-				
-			</section>
-		</main>
+			</div>
+		</section>
 
-		<footer>
-			
-		</footer>
-	</div>
+
+	</main>
+
+	<footer>
+
+	</footer>
+</div>
 </body>
 </html>
