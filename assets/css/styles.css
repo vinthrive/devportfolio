@@ -9,6 +9,14 @@ body{
 	color: #fff;
 	
 }
+
+.container{
+	
+
+}
+section{
+	margin: 5px auto;
+}
 #brand{
 	font-size: xx-large;
 	color: #1DB954;
@@ -30,6 +38,72 @@ body{
 	background-color: #343a40;
 }
 
+#about-details{
+	background-color: transparent;
+	border: 1px solid #fff;
+}
 #greetings{
 	padding: 10px;
+	/*background-color: transparent;*/
+
 }
+
+
+.about-description{
+
+}
+
+.technical-skills{
+	margin: 10px auto;
+	padding: 10px auto;
+	width: 90%;
+}
+
+.item-skill{
+	font-size: large;
+	color: black;
+}
+
+.progress{
+	height: 50px;
+	margin-bottom: 10px;
+
+}
+#html{
+	width: 30%;
+}
+#css{
+	width: 30%;	
+}
+#jscript{
+	width: 10%;
+}
+#php{
+	width: 10%;
+}
+#progress-abl{
+	width: 80%;
+}
+.card{
+	width: 30%;
+}
+
+
+.card-title,.card-text{
+	color: black;
+}
+
+.footer{
+	height: 300px;
+}
+
+#footer-brand, #footer-facebook{
+	font-size: xx-large;
+	/*color: #fff;	*/
+	padding-top: 10px;
+}
+
+#footer-quote{
+	padding-top: 10px;
+}
+
